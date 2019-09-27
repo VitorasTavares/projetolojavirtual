@@ -1,4 +1,4 @@
-</php
+<?php
     $nomeSistema = "Cursos do Vitor";
 ?>
 
@@ -19,9 +19,9 @@
     </h1>
         <nav>
             <ul class="nav">
-                <li class="nav-item" href="#">Cursos</li>
-                <li class="nav-item" href="#">Login</li> 
-                <li class ="nav-item" href="#">Cadastrar</li>
+                <li class="nav-item"><a href="">Cursos</a></li>
+                <li class="nav-item"> <a href="">Login</a></li> 
+                <li class ="nav-item"><a href="">Cadastrar</a></li>
             </ul>       
         </nav>
 </header>
