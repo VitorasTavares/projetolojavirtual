@@ -1,5 +1,5 @@
 
-<?php include_once("config/variaveis.php")?>
+<?php include_once("variaveis.php")?>
 
 
 <header class="d-flex justify-content-beteen align-items-center p-3">>
