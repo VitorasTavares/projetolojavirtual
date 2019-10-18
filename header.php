@@ -1,14 +1,14 @@
 
-<?php include_once("variaveis.php")?>
+<?php include_once('config/variaveis.php')?>
 
 
-<header class="d-flex justify-content-beteen align-items-center p-3">>
+<header class="d-flex justify-content-between align-items-center p-3">
     <div class="navbar">
         <h1 id="logo">
            <?php echo $nomeSistema; ?>
         </h1>
         <nav>
-            <ul class="nav">
+            <ul class='nav'>
             <?php if(isset($usuario) && $usuario !=[] ) {?>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Curso</a>
@@ -16,9 +16,12 @@
                 <li class="nav-item"> 
                     <a class="nav-link" href="#">Olá <?php echo $usuario['nome']; ?></a>
                 </li>
+                <li class="nav-item"> 
+                    <a class="nav-link" href="sair.php"> Sair </a>
+                </li>
             <?php } else { ?>
                 <li class="nav-item"> 
-                    <a class="nav-link" href="#">Login</a>
+                    <a class="nav-link" href="login.php">Login</a>
                 </li>
                 <li class ="nav-item">
                     <a class="nav-link" href="#">Cadastrar</a>
